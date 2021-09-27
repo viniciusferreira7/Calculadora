@@ -10,26 +10,105 @@ html,body{
 
 body{
     background-color: #37415d;
+    padding:0 2%;
 }
 
 .clear{
     clear: both;
 }
 
+    /* Escolher Temas*/
+
+header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 23%;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width:100%;
+    max-width: 372px;
+}
+
+header > p{
+    font-size: 18px;
+    font-weight:500;
+    color:white;
+    font-family: "poppins";
+}
+
+header #theme{
+    position:absolute;
+    right:5%;
+    display:flex;
+    align-items: center;
+}
+
+#theme > p{
+    padding:20px 15px 0 0;
+    letter-spacing: 2px;
+    color:white;
+    font-size:8px;
+    font-family: "poppins";
+    text-transform: uppercase;
+}
+
+#escolher span{
+    color:white;
+    font-size: 10px;
+    padding:0 7px 0 2px;
+}
+
+#barraTheme{
+    position: relative;
+    width: 100%;
+    min-width:50px ;
+    height:15px;
+    border-radius: 7.5px;
+    background-color:#252d42 ;
+}
+
+#pointer{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    -ms-transform: translateX(-50%);
+    width:100%;
+    max-width: 9px;
+    height: 9px;
+    border-radius: 4.5px;
+    margin-left: 2px;
+    background-color: #d53e29;
+    cursor: pointer;
+}
+
+    /*Resultados*/
+
 #resultado{
     width:100%;
+    padding: 0 2%;
     max-width:372px;
     height: 80px;
     line-height:80px;
     background-color: #181f32;
     border-radius: 8px;
     position: relative;
-    top:33%;
+    top:26%;
     left:50%;
-    transform:translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-   
+    transform:translate(-50%);
+    -ms-transform: translate(-50%);
 }
+
+#resultado .valor{
+    float:right;
+    font-size: 25px;
+    font-weight:500;
+    color:white;
+    font-family: "poppins";
+}
+
+    /*Teclas*/
 
 #container{
     position: relative;

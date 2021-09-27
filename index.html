@@ -8,36 +8,55 @@
     <meta name="keywords" content="calculadora,temas">
     <meta name="auhor" content="Vinicius">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <title>Calcuradora</title>
 </head>
 <body>
     
-    <article id="resultado"></article><!--resultado-->
+    <header>
+        <p>calc</p>
+        <div id="theme">
+            <p>Theme</p>
+            <div id="escolher">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <div id="barraTheme">
+                    <div id="pointer"></div><!--pointer-->
+                </div><!--barraTheme-->
+            </div><!--temas-->
+        </div><!--theme-->
+    </header>
+    <article id="resultado">
+        <p class="valor"></p>
+    </article><!--resultado-->
     <div id="container">
         <main>
             <section id="teclas">
                 <div id="numerosSinais">
-                    <input type="button" value="7">
-                    <input type="button" value="8">
-                    <input type="button" value="9">
+                    <input class="number n" type="button" value="7">
+                    <input class="number n " type="button" value="8">
+                    <input class="number n" type="button" value="9">
                     <input type="button" value="DEL">
-                    <input type="button" value="4">
-                    <input type="button" value="5">
-                    <input type="button" value="6">
-                    <input type="button" value="+">
-                    <input type="button" value="1">
-                    <input type="button" value="2">
-                    <input type="button" value="3">
-                    <input type="button" value="-'">
-                    <input type="button" value=".">
-                    <input type="button" value="0">
-                    <input type="button" value="/">
-                    <input type="button" value="X">
+                    <input class="number n" type="button" value="4">
+                    <input class="number n " type="button" value="5">
+                    <input class="number n" type="button" value="6">
+                    <input id="soma" class="signal number" type="button" value="+">
+                    <input class="number n" type="button" value="1">
+                    <input class="number n" type="button" value="2">
+                    <input class="number n" type="button" value="3">
+                    <input class="signal number" type="button" value="-">
+                    <input class="signal number"type="button" value=".">
+                    <input class="number n" type="button" value="0">
+                    <input class="signal number" type="button" value="/">
+                    <input class="signal number" type="button" value="*">
                     <div class="clear"></div><!--clear-->
                 </div><!--numeros sinal-->
                 <div id="resetIgual">
                     <input type="button" value="RESET">
-                    <input type="button" value="=">
+                    <input id="igual" type="button" value="=">
                 </div><!--resetIgual-->
             </section><!--teclas-->
         </main>
