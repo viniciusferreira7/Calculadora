@@ -108,8 +108,9 @@ header #theme{
     color:white;
 }
 
-#tela p{
-    display:inline-block;
+#tela {
+    width:100%;
+    
 }
 
     /*Teclas*/

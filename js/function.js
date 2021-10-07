@@ -11,8 +11,7 @@ $(function(){
         $('#numerosSinais .number').click(function(){
             var insert = $(this).text();
             var texto = $('#tela').text();
-
-        
+            
             $('#tela').append(insert);
             console.log(eval(texto + insert));
             var re = eval(texto + insert);
@@ -36,7 +35,7 @@ $(function(){
             var texto = $('#tela').text();
             var amt = texto.length;
             const str = texto.substr(0,amt-1)
-            $('#tela').html(str)
+            $('#tela').html(str);
            /* var removedText = texto.replace(/\D+/g, '');
             $('#tela').text(removedText);
             console.log(removedText)*/
