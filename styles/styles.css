@@ -191,7 +191,7 @@ header #theme{
 @media screen and (max-width:576px){
 
     header{
-        top:19%;
+        top:21%;
         max-width:275px;
     }
 
@@ -237,7 +237,7 @@ header #theme{
         max-width:275px;
         min-height: 65px;
         position: relative;
-        top:22%;
+        top:23%;
         left:50%;
         transform:translate(-50%);
         -ms-transform: translate(-50%);
