@@ -101,16 +101,12 @@ header #theme{
 }
 
 #resultado #tela{
+    width:100%;
     text-align: right;
     font-size: 25px;
     font-weight:500;
     font-family: "poppins";
     color:white;
-}
-
-#tela {
-    width:100%;
-
 }
 
     /*Teclas*/
@@ -201,6 +197,7 @@ header #theme{
 
     #theme p{
         font-size:12px;
+        line-height: 75px;
     }
 
     #theme span{
@@ -233,9 +230,9 @@ header #theme{
 
     #resultado{
         width:100%;
-        padding: 10px 3%;
+        padding: 18px 3%;
         max-width:275px;
-        min-height: 65px;
+        min-height: 75px;
         position: relative;
         top:23%;
         left:50%;
