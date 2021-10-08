@@ -19,15 +19,9 @@ $(function(){
             $('#igual').click(function(){
                // var valor = re.toLocaleString();
                 $('#tela').html(re);
+                console.log('foi')
             });
-
-         
-                
-
-                
-
             
-
         }); 
         
 
@@ -36,6 +30,7 @@ $(function(){
             var amt = texto.length;
             const str = texto.substr(0,amt-1)
             $('#tela').html(str);
+            re = eval(str + insert);
            /* var removedText = texto.replace(/\D+/g, '');
             $('#tela').text(removedText);
             console.log(removedText)*/
@@ -43,14 +38,13 @@ $(function(){
         })
 
         $('#reset').click(function(){
-            $('#tela').html('')
+            $('#tela').html('');
+            
         })
     };
 
     function alterarTema(){
-        
-        
-        const escolher = $('#escolher');
+
         const barra = $('#barraTheme');
         const pointer = $('#pointer');
         
@@ -85,7 +79,7 @@ $(function(){
                 currentValue = (moveX  * 100) / barra.width();
                 pointer.css('left',currentValue + "%" );
              
-                if(currentValue <= 33){
+                if(currentValue < 33){
                     $('body').css('background-color','#37415d');
                     $('header p, header span').css('color','white');
                     $('#barraTheme').css('background-color','#252d42');
@@ -98,7 +92,7 @@ $(function(){
                     $('#resetIgual #reset').css('background-color','647299').css('color','white');
                     $('#resetIgual #igual').css('background-color','#d13f30').css('color','white');
                 }
-                 if(currentValue > 33 && currentValue < 99){
+                 if(currentValue >= 33 && currentValue < 99){
                     $('body').css('background-color','#e6e6e6');
                     $('header p, header span').css('color','#36372e');
                     $('#barraTheme').css('background-color','#d5ccce');
@@ -125,8 +119,6 @@ $(function(){
                     $('#numerosSinais .del').css('background-color','#56077c').css('color','white').css('border-bottom','#b71aeb');
                     $('#resetIgual #reset').css('background-color','#56077c').css('color','white').css('border-bottom','#ab1adb');
                     $('#resetIgual #igual').css('background-color','#00decf').css('color','#075255').css('border-bottom','#73e2e3');
-
-
                 }
 
             }   

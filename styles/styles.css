@@ -1,3 +1,5 @@
+/*Vinicius Ferreira*/
+
 *{
     margin:0;
     padding:0;
@@ -16,8 +18,6 @@ body{
 .clear{
     clear: both;
 }
-
-    /* Escolher Temas*/
 
 
 header{
@@ -41,7 +41,7 @@ header > p{
 
 header #theme{
     position:absolute;
-    right:5%;
+    right:0%;
     display:flex;
     align-items: center;
 }
@@ -58,13 +58,13 @@ header #theme{
 #escolher span{
     color:white;
     font-size: 10px;
-    padding:0 7px 0 2px;
+    padding:0 9% 0 9%;
 }
 
 #barraTheme{
     position: relative;
     width: 100%;
-    min-width:50px ;
+    min-width:50px;
     height:15px;
     border-radius: 7.5px;
     background-color:#252d42 ;
@@ -110,7 +110,7 @@ header #theme{
 
 #tela {
     width:100%;
-    
+
 }
 
     /*Teclas*/
@@ -186,6 +186,79 @@ header #theme{
 #resetIgual #igual{
     background-color: #d13f30;
     color: white;
+}
+
+@media screen and (max-width:576px){
+
+    header{
+        top:21%;
+        max-width:275px;
+    }
+
+    header > p{
+        font-size:23px;
+    }
+
+    #theme p{
+        font-size:12px;
+    }
+
+    #theme span{
+        font-size:14px;
+        padding:0 9px 0 5px;
+    }
+
+    #barraTheme{
+        position: relative;
+        width: 100%;
+        min-width:70px;
+        height:25px;
+        border-radius:12.5px;
+        background-color:#252d42 ;
+    }
+    
+    #pointer{
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        -ms-transform: translateX(-50%);
+        width:100%;
+        max-width: 12.5px;
+        height: 12.5px;
+        border-radius: 6.25px;
+        margin-left: 5px;
+        background-color: #d53e29;
+        cursor: pointer;
+    }
+
+    #resultado{
+        width:100%;
+        padding: 10px 3%;
+        max-width:275px;
+        min-height: 65px;
+        position: relative;
+        top:24%;
+        left:50%;
+        transform:translate(-50%);
+        -ms-transform: translate(-50%);
+}
+    
+    #container{
+        padding: 1%;
+        max-width:275px;
+    }
+    
+    #numerosSinais .number , .del{
+        float:left;
+        width:25%;
+        max-width: 50px;
+        height: 60px;
+        line-height:60px;
+    }
+
+
+
+
 }
 
 
