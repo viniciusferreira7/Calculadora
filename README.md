@@ -4,6 +4,10 @@ Feita do zero, responsiva e com tema.
 
 <img src="imagens/calculadora.gif" width=400 height=250>
 
+<br/>
+<br/>
+<br/>
+
 
 ## Design desktop
 
