@@ -87,9 +87,9 @@ $(function(){
                     $('#resultado').css('background-color','#181f32');
                     $('#container').css('background-color','#252d44');
                     $('#resultado #tela').css('color','white');
-                    $('#numerosSinais .number , .del').css('background-color','#eae3db').css('color','#434651').css('border-bottom','rgb(130, 130, 130)');;
-                    $('#numerosSinais .del').css('background-color','#647299').css('color','white');;
-                    $('#resetIgual #reset').css('background-color','647299').css('color','white');
+                    $('#numerosSinais .number , .del').css('background-color','#eae3db').css('color','#434651').css('border-bottom','3px solid rgb(130, 130, 130)');;
+                    $('#numerosSinais .del').css('background-color','#647299').css('color','white').css('border-bottom','3px solid #424b64');
+                    $('#resetIgual #reset').css('background-color','#647299').css('color','white').css('border-bottom',' 3px solid #424b64');
                     $('#resetIgual #igual').css('background-color','#d13f30').css('color','white');
                 }
                  if(currentValue >= 33 && currentValue < 99){
@@ -100,10 +100,10 @@ $(function(){
                     $('#resultado').css('background-color','#eeeeee');
                     $('#container').css('background-color','#d3cdcd');
                     $('#resultado #tela').css('color','#37372f');
-                    $('#numerosSinais .number , .del').css('background-color','#e5e4e0').css('color','#35352c').css('border-bottom','#bab1ac');
-                    $('#numerosSinais .del').css('background-color','#388187').css('color','#e2eeed').css('border-bottom','#1c5f65');
-                    $('#resetIgual #reset').css('background-color','#388187').css('color','#d8e9e8').css('border-bottom','#2d646a');
-                    $('#resetIgual #igual').css('background-color','#c85401').css('color','white').css('border-bottom','#874415');
+                    $('#numerosSinais .number , .del').css('background-color','#e5e4e0').css('color','#35352c').css('border-bottom','3px solid #bab1ac');
+                    $('#numerosSinais .del').css('background-color','#388187').css('color','#e2eeed').css('border-bottom','3px solid #1c5f65');
+                    $('#resetIgual #reset').css('background-color','#388187').css('color','#d8e9e8').css('border-bottom',' 3px solid #2d646a');
+                    $('#resetIgual #igual').css('background-color','#c85401').css('color','white').css('border-bottom','3px solid #874415');
 
 
                 }
@@ -115,10 +115,10 @@ $(function(){
                     $('#resultado').css('background-color','#1e0836');
                     $('#container').css('background-color','#1e0836');
                     $('#resultado #tela').css('color','#dbc947');
-                    $('#numerosSinais .number , .del').css('background-color','#331b4d').css('color','#fce442').css('border-bottom','#58146f');
-                    $('#numerosSinais .del').css('background-color','#56077c').css('color','white').css('border-bottom','#b71aeb');
-                    $('#resetIgual #reset').css('background-color','#56077c').css('color','white').css('border-bottom','#ab1adb');
-                    $('#resetIgual #igual').css('background-color','#00decf').css('color','#075255').css('border-bottom','#73e2e3');
+                    $('#numerosSinais .number , .del').css('background-color','#331b4d').css('color','#fce442').css('border-bottom','3px solid #58146f');
+                    $('#numerosSinais .del').css('background-color','#56077c').css('color','white').css('border-bottom','3px solid #b71aeb');
+                    $('#resetIgual #reset').css('background-color','#56077c').css('color','white').css('border-bottom',' 3px solid #ab1adb');
+                    $('#resetIgual #igual').css('background-color','#00decf').css('color','#075255').css('border-bottom','3px solid #73e2e3');
                 }
 
             }   

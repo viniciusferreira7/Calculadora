@@ -151,6 +151,7 @@ header #theme{
 
  #numerosSinais .del{
     background-color: #647299;
+    border-bottom: 3px solid #424b64;
     color: white;
     font-size: 14px;
     letter-spacing: 1px;
@@ -177,6 +178,7 @@ header #theme{
 #resetIgual #reset{
     background-color:#647299 ;
     color: white;
+    border-bottom: 3px solid #424b64;
 }
 
 #resetIgual #igual{
